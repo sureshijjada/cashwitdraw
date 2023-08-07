@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  background-color: white;
+
+  padding: 30px;
+}
+.card {
+  width: 250px;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 12px;
+  text-align: center;
+}
+.topcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+}
+.logop {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #585076;
+}
+.heading {
+  font-size: 18px;
+
+  font-family: 'Roboto';
+  color: #585076;
+}
+.secondcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rupee {
+  font-size: 18px;
+  color: #382f5a;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.amount {
+  font-size: 18px;
+  color: #d4d2db;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.span {
+  font-size: 10px;
+  color: #382f5a;
+}
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  margin-right: 150px;
+}
+.paragraph {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  margin-right: 100px;
+}
+.subhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

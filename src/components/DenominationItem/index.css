@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.li {
+  list-style-type: none;
+}
+.buttondiv {
+  border-radius: 5px;
+  background-color: #585076;
+  border: 2px solid #d4d2db;
+  margin: 2px;
+}
+.button {
+  background-color: transparent;
+  color: #d4d2db;
+  border-width: 0px;
+  height: 30px;
+  width: 85px;
+}
